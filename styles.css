@@ -1,0 +1,54 @@
+/* Cambiar el color del encabezado */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+:root {
+    --rojo: #ff0000;
+  }
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+  }
+  
+/* Importar la fuente desde Google Fonts */
+
+
+/* Tu código CSS continuará aquí */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  /* Cambiar el color de los títulos de sección */
+  .section h2 {
+    color: var(--rojo);
+    margin-bottom: 20px;
+  }
+  .section {background-color: #d1d1d1;
+
+  }
+  
+  /* Cambiar el color de los enlaces */
+  a {
+    color: #0800ff;
+  }
+
+  img {
+    width: 400px; /* Cambia este valor al ancho deseado */
+    height: auto; /* Esto mantiene la proporción original de la imagen */
+  }
+  
+  p {
+    font-size: 20px; /* Cambia este valor al tamaño deseado */
+  }
+  
+  li {
+    font-size: 20px;
+  }
+
+  .img-borde-redondeado {
+    border: 10px solid #FF9900;
+    border-radius: 10px; /* Agrega esquinas redondeadas */
+  }
